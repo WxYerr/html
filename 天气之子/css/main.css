@@ -1,0 +1,60 @@
+/* .image{
+    width: 500px;
+    height: 200px; 
+    background-color: rgb(247,247,247);
+    margin: auto;
+} */
+img{
+    width: 500px;
+    height: 200px;
+    margin:auto;
+    display: block;
+}
+
+body{
+    background-color: aqua;
+    background-image: url(../images/111.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+nav ul{
+    display: flex;
+    background-color: aqua;
+    width: 1200px;
+    height: 120px;
+    border-radius: 18px;
+    justify-content: space-between;
+    margin: auto; 
+    font-size: 30px;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    position: relative;
+    display: block;
+    /* float:left; */
+    font-size: 30px;
+    line-height: 120px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    z-index: 10;
+    margin: auto;
+}
+ul li:hover{
+    background-color: pink;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 宽度313 */
