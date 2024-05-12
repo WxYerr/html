@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>天気の子--电影评价</title>
+  <link rel="stylesheet" href="../css/pingjia.css">
+  <link rel="stylesheet" href="../css/pingjia2.css">
+  <link href="../css/main.css" rel="stylesheet"/>
+  <style>
+    
+
+    </style>
+
+ </head>
+ <nav>
+  <div class="image">
+    <img src="../imges/222.jpg" alt="天气之子">
+</div>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="###">首页</a></li>
+            <li><a href="###">电影介绍</a></li>
+            <li><a href="###">人物介绍</a></li>
+            <li><a href="###">剧情介绍</a></li> 
+        </ul>
+    </nav>
+</div>
+ </nav>
+ <body>
+  <main>
+    <div id="main">
+        <div class="per"><div class="intro"></div><img src="../imges/p1.png"><p class="poem"><a href="#">《天气之子》秉承了新海诚作品的最大优点，
+            那就是画面绝美。<br>影片精美程度保持了一贯水准，<br>每一帧都可以截出来做桌面。<br>尤其是表现宏观大景的画面更是精致，<br>
+            具体到每一个元素时又很细腻，这是影片最大的亮点。并且这种年轻的爱情故事受众不是中老年人。</a></p><h2><a href="#"></a></h2></div></div>
+        <div class="per"><div class="intro"></div><img src="../imges/p2.png"><p class="poem"><a href="#">这部电影的配乐也让人惊喜。<br>忧郁的钢琴曲贯穿始终，<br>
+            既渲染了电影中较为辛酸凄美的场景，<br>同时在需要时也会使你有所放松，<br>减轻另外一些较为阴郁的惨淡时刻的压抑感，让你感觉即使在最黑暗的时候也总有一道光在闪耀。<br>
+            在一些奇幻缥缈的空灵镜头中，<br>钢琴曲还与光线扭曲的特效画面相结合，给配乐增添了必要的深度 。</a></p><h2><a href="#"></a></h2></div></div>
+        <div class="per"><div class="intro"></div><img src="../imges/p3.jpg"><p class="poem"><a href="#">《天气之子》的故事层面日本味道不再浓厚，
+            反而用了好莱坞电影惯用的三幕式戏剧结构。<br> 片中主人公从相遇、相知再到克服困难，是一套标准的好莱坞叙事体系，<br>每二十分钟设立的一个小情节波折，<br>节奏把握准确，已非过往作品中一味地进行情绪的宣泄。<br>
+            这让《天气之子》看起来更像一部拿着真人电影剧本改编而成的动画作品 。</a></p><h2><a href="#"></a></h2></div></div>
+            <div class="per"><div class="intro"></div><img src="../imges/p4.jpg"><p class="poem"><a href="#">
+              《天气之子》的高潮产生于对于世界的抛弃，
+              其中流露的现实寓意和反抗意味也无处不在。
+              无论是男主角帆高捡到的手枪，抑或是阳菜的晴女能力被应用于赚钱的工作，都使得影片带上沉重严肃的色彩，
+              这一点是清新细腻的画面所无法掩盖的。
+              《天气之子》它所渗透出的是对于一种要求众人牺牲自我从而维持秩序的世界的反抗。
+              在《天气之子》中，新海诚似乎决心打破过往风景与情感之间约定俗成的联系，
+              雨与晴日所象征的情感不断转换。也许对于新海诚而言，
+              他所要打造的，是一个独属于少男少女们的、独特的行动空间 。</a></p><h2><a href="#"></a></h2></div></div>
+              <div class="per" id="div1">
+              <!-- 创建昵称和留言文本框 -->
+              <span>昵称：</span><input type="text" id="user" name="user">
+              <br>
+              <span>留言：</span><textarea id="lang">在这里留下你的感想吧！</textarea><br>
+              <!-- 创建提交评价按钮 -->
+             <input type="button" class="btn btn-outline-primary" value="完成" id="btn">
+          </div>
+            </div>
+    
+  </main>
+  
+
+ </body>
+ <script type="text/javascript">
+  //通过id属性查找标签节点
+  var user=document.getElementById('user');
+  var lang=document.getElementById('lang');
+  //通过id属性查找提交评价按钮并绑定点击事件
+  document.getElementById('btn').onclick=function(){
+      //在html代码中创建一个div盒子
+      var cont=document.createElement('div');
+      //将获取到的数据，放到一创建好的盒子中
+      cont.innerHTML='<p>'+user.value+':'+lang.value+'</p ><hr>';
+      //将创建好的div盒子及及内容显示在页面中
+      document.getElementById('div1').appendChild(cont);
+      user.value='';
+      lang.value='';
+  }
+</script>
+</html>

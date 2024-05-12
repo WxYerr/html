@@ -1,0 +1,92 @@
+
+main{ 
+    position:relative;
+    
+    margin-top:60px;
+    border-left: dotted 20px black;
+    border-right: solid 5px black;
+    border-bottom:solid 5px black;
+    border-top:solid 3px black;
+    box-shadow: 15px 15px 10px #313131;
+    }
+  
+    
+    #latter h3{
+        display: inline;
+    }
+    
+    #pers{
+        position: relative;
+        height: 450px;
+        width: 600px;
+        margin:6px auto 0 auto ;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .per{
+        position: relative;
+        left: 200px;
+        border: dashed 5px black;
+        margin: 40px;
+        position: relative;
+        width: 700px;/*内容大小设置*/
+        height: 450px;
+        box-shadow: 0 0 2px black;
+        overflow: hidden;
+        background-image: url(../images/back.png);
+        background-repeat: repeat-y;
+    }
+    .per img{
+        border-image: url(../imges/preview.jpg) 30 30 30 30 repeat;
+        position: absolute;
+        width: 800px;
+        height: 600px;
+        transition: all 1s;
+    }
+    .poem{
+        position: absolute;
+        writing-mode: vertical-lr;
+        font-size: 20px;
+        color: white;
+        -webkit-filter:drop-shadow(0 0 2px pink);
+        right: 60px;
+        top: 30px;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .per:link .intro{}
+    .per:hover .intro{
+        transform: rotateY(0deg);
+        transition: all 1s;
+    }
+    .per:link img{}
+    .per:hover img{
+        margin-left: 40px;
+        -webkit-filter: blur(5px) brightness(50%);
+        transition: all 1s;
+    }
+    .per:hover .poem{
+        opacity: 1;
+        transition: all 1s;
+    }
+    .intro{
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        transform: rotateY(-90deg);
+        transform-origin: left;
+       
+    }
+    .intro h2{
+       writing-mode: vertical-lr;
+       margin: 30px auto;
+       color: #f9e8d0;
+       font-family: '隶书';
+       font-weight: normal;
+    }
+   
+    
+        
+   
+    
