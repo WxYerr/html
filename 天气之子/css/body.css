@@ -159,3 +159,17 @@ ul li:hover{
     padding: 0;
     
 }
+#vid video:nth-child(2){
+     margin-top:100px;
+     margin-left:220px;
+    }
+    #vid video:nth-child(4){
+     margin-top:100px;
+     margin-left:220px;
+    }
+    #vid video:nth-child(5){
+    margin-left: 60px;
+    }
+    #vid video:nth-child(3){
+    margin-left: 60px;
+    }
