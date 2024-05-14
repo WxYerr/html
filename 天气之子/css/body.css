@@ -109,10 +109,20 @@ section{
     margin:auto;
     vertical-align: middle;
 }
-video{
+
+#vid video:nth-child(2){
     margin-top:100px;
     margin-left:220px;
-
+}
+#vid video:nth-child(4){
+    margin-top:100px;
+    margin-left:220px;
+}
+#vid video:nth-child(5){
+    margin-left: 60px;
+}
+#vid video:nth-child(3){
+    margin-left: 60px;
 }
 .name h1{
     color: white;
@@ -121,6 +131,8 @@ video{
     font-family: '华文新魏';
     text-shadow: -1px -1px 6px aqua, 1px 1px 6px  aqua, -1px 1px 6px  aqua, 1px -1px 6px  aqua;
     text-align: center;
+    padding-top: 10px;
+    margin: 0 0;
 }
 nav ul{
     display: flex;
@@ -139,10 +151,9 @@ nav ul li{
     position: relative;
     display: block;
     font-size: 30px;
-    line-height: 120px;
+    line-height: 100px;
     width: 200px;
-    height: 120px;
-    
+    height: 100px;
     text-decoration: none ;
     color: white;
     margin: auto;
@@ -154,22 +165,31 @@ ul li:hover{
 .container  li a:hover{
     color:aqua;
 }
+.footer{
+    width: 100%;
+    text-align: center;
+    color:black ;
+    font-size: 12px;    
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul{
+    display:flex;
+    height: 50px;
+    justify-content: center;
+    margin: auto;
+}
+.footer ul li a{
+    position: relative;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
 *{
     margin: 0;
     padding: 0;
     
 }
-#vid video:nth-child(2){
-     margin-top:100px;
-     margin-left:220px;
-    }
-    #vid video:nth-child(4){
-     margin-top:100px;
-     margin-left:220px;
-    }
-    #vid video:nth-child(5){
-    margin-left: 60px;
-    }
-    #vid video:nth-child(3){
-    margin-left: 60px;
-    }
