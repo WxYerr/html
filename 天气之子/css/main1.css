@@ -1,14 +1,24 @@
+/* .image{
+    width: 500px;
+    height: 200px; 
+    background-color: rgb(247,247,247);
+    margin: auto;
+} 
+.image{
+    width: 500px;
+    height: 200px;
+    margin:auto;
+    display: block;
+} */
 
 body{
-    background-color: aqua;
-    background-image: url(../images/new1.jpg);
+  
+    background-image: url(../images/111.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
     
-}
-main{
-    text-align: center;
 }
 .name h1{
     color: white;
@@ -18,22 +28,25 @@ main{
     text-shadow: -1px -1px 6px aqua, 1px 1px 6px  aqua, -1px 1px 6px  aqua, 1px -1px 6px  aqua;
     padding-top: 10px;
     margin: 0 0;
-    
+    text-align: center;
 }   
 nav ul{
     display: flex;
+    
     width: 1200px;
     height: 100px;
+    
     justify-content: center;
     margin: auto; 
     font-size: 30px;
+    
 }
 nav ul li{
     list-style: none;
 }
 .container nav ul li a{
     position: relative;
-    display: block;
+    display: inline-block;
     font-size: 30px;
     line-height: 100px;
     width: 200px;
@@ -41,6 +54,7 @@ nav ul li{
     text-decoration: none ;
     color: white;
     margin: auto;
+    text-align: center;
 }
 ul li:hover{
     background-color: pink;
@@ -49,62 +63,6 @@ ul li:hover{
 .container  li a:hover{
     color:aqua;
 }
-
-.border{
-    width: 1100px;
-    display: inline-block;
-    
-    background-color:rgba(255, 255, 255, 0.8);
-}
-.border h1{
-    padding: 20px;
-    margin-left: 40px;
-    font-family: '华文行楷';
-}
-.unique{
-    display: inline-block;
-}
-.unique img{
-    width: 351px;
-    float: left;
-    height: 424px;
-    padding: 40px;
-    padding-top: 0;
-}
-.unique p:nth-child(2){
-    font-size:22px;
-    color:rgb(215, 121, 81);
-    padding-top: 50px;
-    text-align:left;
-}
-.unique p:nth-child(3){
-    font-size: 22px;
-    color:rgb(215, 121, 81);
-    text-align:left;    
-}
-.border hr{
-    border: 0;
-    padding-top: 1px;
-    background: linear-gradient(to right, transparent,cyan, transparent);
-}
-.insert{
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
-}
-.insert img{
-    width: 355px;
-    height: 200px; ;
-    margin: auto;
-    padding: 5px;
-    cursor: pointer;
-    transition:all 0.6s;
-}
-
-.insert img:hover{
-    transform: scale(1.5,1.5);
-}
-
 .footer{
     width: 100%;
     text-align: center;
@@ -131,5 +89,5 @@ ul li:hover{
 *{
     margin: 0;
     padding: 0;
-    
 }
+/* 宽度313 */

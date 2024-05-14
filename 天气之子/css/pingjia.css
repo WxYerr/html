@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #F9F4F0;   
+}
+
+main{
+    border-style: dotted 40px black;
+    background-color:rgba(250, 235, 215,0.7) ;
+    width: 1200px;
+    margin:30px auto ;
+}
+
+header{
+    height: 60px;
+    padding-left: 100px;
+    
+    font-size: 17px;
+    line-height: 60px;
+}
+
+header img{
+    float: left;
+}
+
+header ul{
+    margin-right: 400px;
+}
+
+header nav li{
+    width:100px;
+    text-align: center;
+    list-style: none;   
+    float: left;
+}
+
+footer{
+    width: 100%;
+    background: linear-gradient(to right,rgb(210, 180, 140),rgb(253, 245, 230),rgb(210, 180, 140));    
+    text-align: center;
+    color:rgb(128,128,0);
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+footer a{
+    color:SaddleBrown;
+}
+
+footer nav{   
+   margin-bottom: 20px;
+}
+
+footer li{
+     list-style: none;     
+     display:inline-block;
+ }
+#div1{
+    background-image: url(../images/r2.jpg);
+    width:700px;
+    font-size: 30px;
+    height:500px;
+    font-family: '华文新魏';
+    
+}
+#btn{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+input{
+    width: 400px;
+    font-size: 19px;
+}
+textarea{
+    width: 400px;
+    font-size: 17px;
+}
+#btn.hover{
+    background-color: black;
+}
+#long{
+    font-size: 50px;
+}
